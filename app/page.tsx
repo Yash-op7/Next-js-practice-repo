@@ -1,9 +1,8 @@
-import Image from "next/image";
+import Product from './components/Product';
 
 export default function Home() {
-  return (
-<div>
-  
-</div>
-  );
+  return (<div>
+    <h1 className='text-5xl'>Store</h1>
+    <Product />
+  </div>);
 }
